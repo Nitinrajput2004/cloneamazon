@@ -1,0 +1,191 @@
+*{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    border: border-box;
+
+}
+.navbar{
+    height: 64px;
+    background-color: #0f1111;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.nav-logo{
+    height: 50px;
+    width: 100px;
+
+}
+.logo{
+    background-image: url(amazon.jpg);
+    background-size: cover;
+    height: 50px;
+    width: 100%;
+}
+.border{
+    border: 1px solid transparent;
+}
+.border:hover{
+    border:1px solid white ;
+}
+.nav-address{
+    height: 50px;
+    width: 100px;
+    margin-top: auto;
+}
+.p1{
+    color: #cccccc;
+    font-size: 0.8rem;
+    margin-left: 15px;
+}
+.p2{    font-size: 1rem;
+    margin-left: 4px;
+}
+.address-icon{
+    display: flex;
+    align-items: center;
+}
+.nav-search{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: plum;
+    height: 40px;
+    width: 619px;
+    border-radius: 5px;
+}
+.search-select{
+    background-color: #f3f3f3;
+    width: 50px;
+    text-align: center;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius:8px; 
+}
+.search-input{
+    width: 100%;
+    font-size: 1rem;
+    border: none;
+}
+.search-icon{
+    width: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.3rem;
+    background-color: orange;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius:8px;
+    color: #0f1111;
+}
+.nav-search:hover{
+    border: 2px solid orange;
+}
+.span{
+    font: size 0.4rem;
+}
+.p4{
+    font-size: 0.9rem;
+    font-weight:800 ;
+}
+.nav-cart{
+    font-size: 2rem;
+    display: flex;
+}
+.p3{
+    font-size: 0.8rem;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    font-weight: 800;
+}
+.panel{
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: rgb(47, 47, 68);
+}
+.panel-all{
+    display: flex;
+    color: white;
+    font-weight: 800;
+    justify-content: center;
+    align-items: center;
+}
+.panel-all p{
+    margin-left: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.panel-op{
+    width: 70%;
+    font-size: 0.8rem;
+}
+.panel-op p {
+    display: inline;
+    margin-left: 10px;
+    color: white;
+}
+.panel-image{
+    background-image: url(diya.jpg);
+    background-size: cover;
+    height: 2rem;
+    width: 2rem;
+}
+.panel-deals{
+    font-weight: 800;
+    color: white;
+}
+.main{
+    background-image: url(main.jpg);
+    height: 200px;
+    width: 100%;
+    background-size: cover;
+}
+.space{
+    background-color:white;
+    height: 2px;
+    width: 100%;
+}
+.discount{
+    background-image: url(price.jpg);
+    height: 200px;
+    width: 100%;
+    background-size: cover;
+}
+.game p{
+    font-size: 2rem;
+    font-weight: 500;
+    margin-top:1px;
+    }
+.gamea{
+    display: contents;
+}
+.gamex{
+    background-image: url(Fuji.jpg);
+    background-repeat: no-repeat;
+    height: 70px;
+    width: 60%;
+    background-size:contain;
+    display: flex;
+    
+}
+.mo p{
+    
+    font-size:0.7rem;
+    margin-left: 18px;
+}
+.key{
+    background-image: url(key.jpg);
+    background-repeat: no-repeat;
+    height: 70px;
+    width: 60%;
+    background-size:contain;
+    display: flex;
+}
+.kop p{
+    font-size:0.7rem;
+    margin-left: 18px;
+}
